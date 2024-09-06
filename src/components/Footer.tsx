@@ -8,8 +8,8 @@ import logo from '../../public/Logo (3).png'
 const Footer = () => {
     return (
         <div className='bg-[#0E0E0E] h-[590px] text-white'>
-            <div className='mx-24'>
-                <div className='flex items-start m'>
+            <div className='flex flex-col justify-around h-full mx-24'>
+                <div className='flex items-start'>
 
                     <div className='basis-[50%]'>
                         <img src={logo} />
@@ -49,8 +49,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <hr />
-                <div className='flex items-center justify-between'>
+
+                <div className='flex items-center justify-between text-[#81859F] border-t pt-2 border-[#252948]'>
                     <div className='flex gap-[11.43px]'>
                         <img src={facebook} alt="facebook" />
                         <img src={insta} alt="insta" />
@@ -70,6 +70,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }
